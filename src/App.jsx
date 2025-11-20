@@ -2,7 +2,9 @@ import React, { useState, useEffect, useRef } from 'react'
 import LandrosImg from './assets/LandrosEntreprise.png'
 import SparkImg from './assets/Spark.png'
 import LandrosSmallLogo from './assets/LandrosSmallLogo.png'
-import Diddy from './assets/Diddydoit.png'
+import DHDIImg from './assets/DHDI.png'
+import KlirosImg from './assets/Kliros.png'
+import TrainingAcademyImg from './assets/TrainingAcademy.png'
 import OwnersImg from './assets/Theowners.png'
 import { useScrollReveal } from './utils/useScrollReveal'
 import './App.css'
@@ -76,12 +78,32 @@ function App() {
               <div className="brand-card">
                 <div className="brand-logo-box">
                   <img 
-                    src={Diddy} 
-                    alt="DiddyDoIt" 
+                    src={DHDIImg} 
+                    alt="DHDI" 
                     className="brand-logo"
                   />
                 </div>
-                <p className="brand-name">DiddyDoIt?</p>
+                <p className="brand-name">Dhdi?</p>
+              </div>
+              <div className="brand-card">
+                <div className="brand-logo-box">
+                  <img 
+                    src={KlirosImg} 
+                    alt="Kliros" 
+                    className="brand-logo"
+                  />
+                </div>
+                <p className="brand-name">Kliros</p>
+              </div>
+              <div className="brand-card">
+                <div className="brand-logo-box">
+                  <img 
+                    src={TrainingAcademyImg} 
+                    alt="Training Academy" 
+                    className="brand-logo"
+                  />
+                </div>
+                <p className="brand-name">Training Academy</p>
               </div>
             </div>
           </div>
